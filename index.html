@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html> 
+    
+    <head>
+        <title>Form</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <script src="form.js"></script>  
+           
+    </head>
+
+    <body>
+        <div class="main">
+            <h1>Student Form</h1>
+            <hr/>
+        <div class="resform">
+            
+             <table>                    
+                <tr>
+                    <td><label>Student Name :</label></td>
+                    <td><input type="text" id="name" /></td>
+                </tr>
+                <tr>
+                    <td><label>Email :</label></td>
+                    <td><input type="text" id="email" placeholder="Enter Email"/></td>
+                </tr>
+                <tr>
+                    <td><label>Roll no :</label></td>
+                    <td><input type="text" id="roll" default="0"/></td>
+                </tr>
+                <tr>
+                    <td><label>Physics :</label></td>
+                    <td><input type="text" id="phy" default="0"/></td>
+                </tr>
+                <tr>
+                    <td><label>Chemistry :</label></td>
+                    <td><input type="text" id="chem" default="0"/></td>
+                </tr>
+                <tr>
+                    <td><label>Biology :</label></td>
+                    <td><input type="text" id="bio" default="0"/></td>
+                </tr>
+                <tr>
+                    <td><label>Math :</label></td>
+                    <td><input type="text" id="math" default="0"/></td>
+                </tr>
+               
+                <tr>
+                    <td><button id="submit" onclick="result()">Submit</button></td>
+                    <td><button id="clear" onclick="clear()">Clear</button></td>
+                </tr>
+                
+             </table> 
+             
+        </div>
+        <div class="res">
+            <h1>Result</h1>
+             <hr/>
+             <div>
+                <table>
+                <tr>
+                    <td>
+                        Name :
+                    </td>
+                    <td>
+                     <label id="lblname"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    Email :
+                    </td>
+                     <td>
+                        <label id="lblemail"></label>
+                     </td>
+                </tr>
+                <tr>
+                    <td>
+                    Roll :
+                    </td>
+                     <td>
+                        <label id="lblroll"></label>
+                     </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                     Physics :
+                    </td>
+                     <td>
+                        <label id="lblphy"></label>              
+                      </td>
+                </tr>
+                <tr>
+                     <td>
+                     Chemistry:
+                     </td>
+                     <td>
+                        <label id="lblchem"></label>
+                     </td>
+                </tr>
+                 <tr>
+                     <td>
+                      Biology:
+                     </td>
+                    <td>
+                        <label id="lblbio"></label>
+                     </td>
+                </tr>
+                <tr>
+                     <td>
+                      Math:
+                     </td>
+                     <td>
+                        <label id="lblmath"></label>
+                     </td>
+                </tr>
+                 <tr>
+                     <td>
+                     Total:
+                     </td>
+                     <td>
+                        <label id="lbltotal"></label>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                       Average:
+                     </td>
+                     <td>
+                        <label id="lblavg"></label>
+                     </td>
+                 </tr>
+                 <tr>
+                       <td>
+                      Percentage:
+                       </td>
+                        <td>
+                            <label id="lblper"></label>
+                        </td>
+                </tr>
+                 </table>
+
+             </div>
+
+        </div>
+        </div>
+
+    </body>
+</html>
+
+    

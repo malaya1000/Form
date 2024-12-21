@@ -1,0 +1,37 @@
+*{
+   margin: 10; 
+   padding: 1;
+}
+
+.resform{
+
+    background-color: aqua;
+
+}
+.main{
+    margin: 1em;
+    border: 1px solid red;
+}
+.resform{
+    width: fit-content;
+    margin: auto;
+    
+    
+}
+.res{
+    margin-top: 1em;
+    border: 1px solid black;
+    height: 50vh;
+    background-color: aqua;
+    width: 50%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+table{
+    background-color: aqua;
+    
+}
+h1{
+    text-align: center;
+}
